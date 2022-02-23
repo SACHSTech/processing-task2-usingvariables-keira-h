@@ -30,7 +30,7 @@ public class Sketch extends PApplet {
   
   // Drawing pathway
     fill(189, 189, 189);
-    quad(400, 500, 385, 460, 295, 460, 280, 500);
+    quad(width/(float)1.25, height, width/(float)1.2987012987, height/(float)1.08695652174, width/(float)1.69491525424, height/(float)1.08695652174, width/(float)1.78571428571, height);
   
   // Drawing house base
     fill(242, 234, 203);
@@ -55,19 +55,19 @@ public class Sketch extends PApplet {
   
   // Drawing door 
     fill(156, 98, 17);
-    rect(295, 300, 90, height/(float)3.125);
+    rect(width/(float)1.69491525424, height/(float)1.66666666667, width/(float)5.55555555556, height/(float)3.125);
 
   // Drawing door knob 
     fill(228, 235, 33);
-    ellipse(310, 395, width/25, height/25);
+    ellipse(width/(float)1.61290322581, height/(float)1.26582278481, width/25, height/25);
 
   // Drawing chimney
     fill(156, 98, 17);
-    rect(105, height/(float)7.69230769231, width/(float)(6.66666666667), 145);
+    rect(width/(float)4.7619047619, height/(float)7.69230769231, width/(float)(6.66666666667), height/(float)3.44827586207);
   
   // Drawing roof
     fill(156, 98, 17);
-    triangle(55, 235, 255, 60, 455, 235);  
+    triangle(width/(float)9.09090909091, height/(float)2.12765957447, width/(float)1.96078431373, height/(float)8.33333333333, width/(float)1.0989010989, height/(float)2.12765957447);  
   }
   
 }
