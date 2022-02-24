@@ -2,13 +2,18 @@ import processing.core.PApplet;
 
 public class Sketch extends PApplet {
 	
+  /**
+  * Description:
+  * Write a program that modifies the drawing using width and height varibales so it works with any sized window
+  * @author: Hosey K
+  */
 	
   /**
    * Called once at the beginning of execution, put your size all in this method
    */
   public void settings() {
 	// put your size call here
-    size(500, 500);
+    size(400, 400);
   }
 
   /** 
@@ -26,7 +31,7 @@ public class Sketch extends PApplet {
     
 	// Drawing grass 
     fill(163, 230, 115);
-    rect(width/-100, height/(float)1.12359550562, width*(float)1.02, height/(float)(6.66666666667));
+    rect(width/-100, height/((float)100/89), width*(float)1.02, height/((float)20/3));
   
   // Drawing pathway
     fill(189, 189, 189);
@@ -34,24 +39,24 @@ public class Sketch extends PApplet {
   
   // Drawing house base
     fill(242, 234, 203);
-    rect(width/(float)6.25, height/(float)2.27272727273, width/(float)1.42857142857, height/(float)2.08333333333); 
+    rect(width/(float)6.25, height/((float)25/11), width/((float)10/7), height/((float)25/12)); 
 
   // Drawing window base
     fill(0, 0, 0);
-    rect(width/4, height/(float)1.61290322581, width/(float)6.66666666667, height/(float)7.69230769231); 
+    rect(width/4, height/((float)50/31), width/((float)10/7), height/((float)25/12)); 
 
   // Drawing window glass
     fill(255, 255, 255);
-    rect(width/(float)3.84615384615, height/(float)1.5873015873, width/(float)16.6666666667, height/20);
+    rect(width/((float)50/13), height/((float)100/63), width/((float)50/3), height/20);
 
     fill(255, 255, 255);
-    rect(width/(float)3.0303030303, height/(float)1.5873015873, width/(float)16.6666666667, height/20);
+    rect(width/((float)100/33), height/((float)100/63), width/((float)50/3), height/20);
 
     fill(255, 255, 255);
-    rect(width/(float)3.84615384615, height/(float)1.44927536232, width/(float)16.6666666667, height/20);
+    rect(width/((float)50/13), height/((float)100/69), width/((float)50/3), height/20);
 
     fill(255, 255, 255);
-    rect(width/(float)3.0303030303, height/(float)1.44927536232, width/(float)16.6666666667, height/20);  
+    rect(width/((float)100/33), height/((float)100/69), width/((float)50/3), height/20);  
   
   // Drawing door 
     fill(156, 98, 17);
